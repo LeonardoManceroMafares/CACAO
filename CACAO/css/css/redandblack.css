@@ -1,0 +1,92 @@
+table.estilo2 {
+	margin:auto;
+	width: 800px;
+	border:1px solid #000000;
+	border-spacing: 3px; }
+
+table.estilo2 a, table#estilo2,table#estilo2 tbody,table#estilo2 tfoot,table#estilo2 tr,table#estilo2 th,table#estilo2 td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table.estilo2 caption {
+	font-size: 1.8em;
+	text-align: center;
+	text-indent: 100px;
+	background: url(../img/bg_caption.gif) center top;
+	height: 40px;
+	color: #FFFFFF;
+	border:1px solid #000000; }
+
+table.estilo2 thead th {
+	background: url(../img/bg_th.gif) center;
+	height: 20px;
+	width:100px;
+	color: #FFFFFF;
+	font-size: 1.0em;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 0px 15px;
+	margin: 100px 100px 100px;
+	text-align:inherit; ; }
+
+table.estilo2 tbody tr {	background: #FE9A2E; }
+
+table.estilo2 tbody tr.odd {	background: #f0f0f0; }
+
+table.estilo2 tbody th {
+	background: url(../img/arrow_white.gif)  center no-repeat;
+	background-position: 5px;
+	padding-left: 40px !important; }
+
+table.estilo2 tbody tr.odd th {
+	background: url(../img/arrow_grey.gif) left center no-repeat;
+	background-position: 5px;
+	padding-left: 40px !important; }
+
+table.estilo2 tbody th,table#estilo2 tbody td {
+	font-size: 2.8em;
+	line-height: 2.4em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding: 10px 7px;
+	border-bottom: 1px solid #800000;
+	text-align: center; }
+
+table.estilo2 tbody a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none; }
+
+table.estilo2 tbody a:hover {
+	color: #ffffff;
+	text-decoration: underline; }
+
+table.estilo2 tbody tr:hover th {
+	background: #800000 url(../img/arrow_red.gif) left center no-repeat;
+	background-position: 5px;
+	color: #ffffff; }
+
+table.estilo2 tbody tr.odd:hover th {
+	background: #000000 url(../img/arrow_black.gif) left center no-repeat;
+	background-position: 5px;
+	color: #ffffff; }
+
+table.estilo2 tbody tr:hover th a,table#estilo2 tr.odd:hover th a	{
+		 color: #ffffff; }
+
+table.estilo2 tbody tr:hover td,table#estilo2 tr:hover td a,table#estilo2 tr.odd:hover td,table#estilo2 tr.odd:hover td a {
+	background: #800000;
+	color: #ffffff;	 }
+
+table.estilo2 tbody tr.odd:hover td,table#estilo2 tr.odd:hover td a{
+	background: #000000;
+	color: #ffffff;	 }
+
+table.estilo2 tfoot th,table#estilo2 tfoot td {
+	background: #ffffff url(../img/bg_footer.gif) repeat-x bottom;
+	font-size: 0.8em;
+	color: #ffffff;
+	height: 21px;
+	}
+
+	
